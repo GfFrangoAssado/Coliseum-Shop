@@ -12,10 +12,9 @@ mercadopago.configure({
 
 app.post('/create_preference', async (req, res) => {
   try {
-    const { items, title } = req.body;
+    const { items } = req.body;
     const preference = {
       items: items,
-      title: title,
       back_urls: {
         success: "https://coliseum-shop.netlify.app",
         failure: "https://coliseum-shop.netlify.app",
