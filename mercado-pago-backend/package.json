@@ -1,0 +1,22 @@
+{
+  "name": "mercado-pago-backend",
+  "version": "1.0.0",
+  "description": "Backend simples para integração Mercado Pago",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mercadopago",
+    "express",
+    "backend",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mercadopago": "^2.8.0"
+  }
+}
