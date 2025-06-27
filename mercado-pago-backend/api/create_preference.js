@@ -6,7 +6,8 @@ mercadopago.configure({
 
 module.exports = async (req, res) => {
   if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Método não permitido' });
+    res.status(405).send('Método não permitido');
+    return;
   }
   try {
     const { items } = req.body;
