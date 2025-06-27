@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "api/create_preference.js",
   "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
     "mercadopago": "^1.5.13"
   }
 }
